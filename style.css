@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.Logo-Principal {
+    height: 400px;
+    margin-left: 94%;
+    z-index: -1;
+}
+
+.link-instagram {
+    color: white;
+    text-decoration: none;
+
+}
+
+.Instagram {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.Personagens-Mario-Luigi {
+    height: 500px;
+}
+
+body {
+      margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+    width: 100vw;
+    
+
+
+}
+
+.plano-de-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    height: 1vh;
+    width: 1vw;
+    background-size: contain;
+
+}
+
+.imagem-fundo {
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    position: fixed;
+    top: 0;
+}
+
+.caixa-principal {
+    width: 40%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.texto {
+    color: #ae6e55;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 170%;
+    white-space: nowrap;
+    text-shadow: 1px 1px 0px #1b1a1a, 
+                 -1px -1px 0px #c06bc0, 
+                 1px -1px 0px #d177b3, 
+                 -1px 1px 0px #e21dc1;
+}
+.titulo-sonho-meu {
+    white-space: nowrap;
+    width: 100%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    font-size: 430%;
+    color: #ae6e55;
+    text-shadow: 1px 1px 0px #f0ebeb, 
+                 -1px -1px 0px #c06bc0, 
+                 1px -1px 0px #d177b3, 
+                 -1px 1px 0px #e21dc1;
+    
+}
+
+.Alessandra {
+    height: 100vh;
+    width: 40vw;
+    margin-top: 0%;
+    padding-top: -20%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    margin-right: 10%;
+    margin-left: 24%;
+    margin-bottom: -10%;
+    z-index: 0;
+}
+
+.logo-whats {
+    
+  margin-top: 40%;
+  margin-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 10%;
+    margin-right: 0%;
+    margin-left: -40%;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    background: #401e3c;
+    background: linear-gradient(90deg, rgba(64, 30, 60, 0.99) 0%, rgba(171, 109, 171, 0.9) 15%, rgba(204, 163, 204, 0.59) 33%, rgba(204, 163, 204, 0.46) 50%, rgba(196, 137, 196, 0.32) 67%, rgba(227, 188, 227, 0.17) 85%, rgba(227, 188, 227, 0.24) 100%);
+    position: fixed;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    margin: 30px;
+    margin-left: 100px;
+    gap: 25px;
+    align-items: center;  
+
+}
+
+.header a {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ae6e55;
+    text-shadow: 1px 1px 0px #f5f2f2, 
+                 -1px -1px 0px #c06bc0, 
+                 1px -1px 0px #d177b3, 
+                 -1px 1px 0px #e21dc1;
+
+}
+
+.header a:hover {
+    color: red;
+    font-size: 30px;
+    transition: 0.5s;
+    
+
+}
+
+.contato {
+    text-decoration: none;
+}
