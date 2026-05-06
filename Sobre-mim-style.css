@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +6,10 @@
 }
 
 .Logo-Principal {
-    height: 400px;
+  height: 400px;
     margin-left: 94%;
     z-index: -1;
+    margin-top: 11%;
 }
 
 .link-instagram {
@@ -72,6 +74,7 @@ body {
 }
 
 .caixa-principal {
+    display: flex;
     width: 40%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,32 +83,19 @@ body {
 }
 
 .texto {
-    color: #ae6e55;
-    width: 100%;
-    margin-left: 30%;
+    position: fixed;
+    padding-top: 1%;
+    color: #020202;
+    width: 19%;
+    margin-top: 23%;
+    margin-left: 3%;
     margin-right: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 170%;
+    font-size: 150%;
     white-space: nowrap;
-    text-shadow: 1px 1px 0px #1b1a1a, 
-                 -1px -1px 0px #c06bc0, 
-                 1px -1px 0px #d177b3, 
-                 -1px 1px 0px #e21dc1;
+   
 }
-.titulo-sonho-meu {
-    white-space: nowrap;
-    width: 100%;
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 50%;
-    font-size: 430%;
-    color: #ae6e55;
-    text-shadow: 1px 1px 0px #f0ebeb, 
-                 -1px -1px 0px #c06bc0, 
-                 1px -1px 0px #d177b3, 
-                 -1px 1px 0px #e21dc1;
-    
-}
+
 
 .Alessandra {
     height: 100vh;
@@ -173,4 +163,11 @@ body {
 
 .contato {
     text-decoration: none;
+}
+
+
+.alessandrasemfundo {
+    margin-left: 10%;
+    margin-bottom: 0%;
+    padding-left: 0%;
 }
