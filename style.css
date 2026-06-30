@@ -33,7 +33,7 @@
 }
 
 
-body {
+.corpo {
       margin: 0;
   padding: 0;
   width: 100%;
@@ -173,4 +173,76 @@ body {
 
 .contato {
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) 
+
+{
+    .corpo{
+        box-sizing: border-box;
+    /*   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; */
+    }
+
+
+
+    .caixa-mae {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .caixa-principal {
+        width: 80%;
+        text-align: center;
+    }
+
+    .Logo-Principal {
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 50%;
+    z-index: -1;   
+}
+
+
+    .Alessandra {
+        width: 80vw;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .header {
+        width: 100%;
+        margin-top: 30px;
+        flex-direction:row;
+        justify-content: space-between;
+        padding: 5px;
+        margin-left: 0;
+        gap: 2px;
+    }
+
+    .header a {
+        font-size: 15px;
+         margin-left: 2%;
+    }
+    .titulo-sonho-meu {
+    white-space: nowrap;
+    width: 100%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: -8%;
+    margin-bottom: 0%;
+    font-size: 230%;
+    color: #ae6e55;
+    text-shadow: 1px 1px 0px #f0ebeb, 
+                 -1px -1px 0px #c06bc0, 
+                 1px -1px 0px #d177b3, 
+                 -1px 1px 0px #e21dc1;
+}
+
+.texto {
+    display: none;
+}
 }
